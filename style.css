@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 0 20px 20px 20px;
+}
+form{
+    font-family: sans-serif;
+}
+
+.main-box {
+    background: url("background.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+#login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    border: 0.2px solid white;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 5px;
+    border: 1.5px solid white;
+    background: transparent;
+    color: white;
+    font-weight: 600;
+}
+input::placeholder {
+    color: white;
+    font-weight: 400;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #338736;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.flex input {
+    height: 12px;
+    width: 12px;
+    margin: 0;
+    margin-top: 2px;
+}
+
+.flex p {
+    margin: 0;
+}
+
+#check {
+    display: inline;
+}
